@@ -1,0 +1,20 @@
+[gd_resource type="Resource" load_steps=4 format=2]
+
+[ext_resource path="res://items/items_base.gd" type="Script" id=1]
+[ext_resource path="res://items/sprites/nomal_sword.png" type="Texture" id=2]
+[ext_resource path="res://items/Item/stick_bach.tscn" type="PackedScene" id=3]
+
+[resource]
+script = ExtResource( 1 )
+name = "Normal Sword"
+description = ""
+texture = ExtResource( 2 )
+hp = 0
+mana = 0
+count_down = 0
+item_type = 0
+is_equip = false
+is_quickuse = false
+dame = 100
+quantity = 1
+item = ExtResource( 3 )

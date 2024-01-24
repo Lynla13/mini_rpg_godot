@@ -1,0 +1,94 @@
+[gd_scene load_steps=12 format=2]
+
+[ext_resource path="res://players/player.gd" type="Script" id=2]
+[ext_resource path="res://players/player_1.tres" type="Resource" id=3]
+[ext_resource path="res://items/inventory_1.tres" type="Resource" id=4]
+[ext_resource path="res://guis/hud.tscn" type="PackedScene" id=5]
+[ext_resource path="res://players/sprites/player_4.png" type="Texture" id=12]
+
+[sub_resource type="Gradient" id=6]
+offsets = PoolRealArray( 0, 0.421053, 0.95614, 0.982456, 0.991228, 1 )
+colors = PoolColorArray( 0, 0, 0, 1, 0.913086, 0.378075, 0.378075, 1, 0.944336, 0.929581, 0.929581, 1, 0.37401, 0.37401, 0.37401, 1, 0.640351, 0.640351, 0.640351, 1, 1, 1, 1, 1 )
+
+[sub_resource type="GradientTexture" id=7]
+gradient = SubResource( 6 )
+
+[sub_resource type="ParticlesMaterial" id=5]
+flag_disable_z = true
+spread = 4.2
+gravity = Vector3( 0, 98, 0 )
+initial_velocity = 130.0
+angular_velocity = 0.77
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+scale = 1.5
+scale_random = 0.4
+color = Color( 0.466667, 0.501961, 0.717647, 0.184314 )
+color_ramp = SubResource( 7 )
+
+[sub_resource type="AtlasTexture" id=4]
+atlas = ExtResource( 12 )
+region = Rect2( 7.42647, 4.84891, 12.8783, 17.815 )
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 31, 25.25 )
+
+[sub_resource type="CapsuleShape2D" id=1]
+radius = 12.0
+height = 30.0
+
+[node name="Player" type="KinematicBody2D"]
+script = ExtResource( 2 )
+player = ExtResource( 3 )
+inventory = ExtResource( 4 )
+
+[node name="Particles2D" type="Particles2D" parent="."]
+position = Vector2( -10, 182 )
+z_index = -2
+amount = 1
+lifetime = 0.4
+process_material = SubResource( 5 )
+texture = ExtResource( 12 )
+
+[node name="Player" type="Sprite" parent="."]
+position = Vector2( -15, 160 )
+scale = Vector2( 4, 4 )
+texture = SubResource( 4 )
+
+[node name="Weapon" type="Node2D" parent="Player"]
+show_behind_parent = true
+position = Vector2( 4.56066, 5.38344 )
+scale = Vector2( 0.304044, 0.256354 )
+
+[node name="Top" type="Node2D" parent="Player"]
+position = Vector2( 4.56066, 5.38344 )
+scale = Vector2( 0.304044, 0.256354 )
+
+[node name="Bottom" type="Node2D" parent="Player"]
+position = Vector2( 4.56066, 5.38344 )
+scale = Vector2( 0.304044, 0.256354 )
+
+[node name="Ring" type="Node2D" parent="Player"]
+
+[node name="Bracelet" type="Node2D" parent="Player"]
+
+[node name="player" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="player"]
+position = Vector2( -15, 166 )
+shape = SubResource( 2 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -15, 166 )
+shape = SubResource( 1 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+current = true
+zoom = Vector2( 1.5, 1.5 )
+offset_v = -1.0
+
+[node name="HUD" parent="." instance=ExtResource( 5 )]
+
+[node name="effect" type="Tween" parent="."]
+
+[connection signal="_weapon_use" from="." to="." method="_on_Player_weapon_use"]

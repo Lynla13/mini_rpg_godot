@@ -1,0 +1,1981 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://guis/interface_inventory.gd" type="Script" id=1]
+[ext_resource path="res://items/inventory_1.tres" type="Resource" id=2]
+[ext_resource path="res://guis/Slot.tscn" type="PackedScene" id=3]
+
+[node name="Inventory" type="VBoxContainer"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = -415.0
+script = ExtResource( 1 )
+inventory = ExtResource( 2 )
+slot = ExtResource( 3 )
+
+[node name="Item" type="GridContainer" parent="."]
+margin_right = 609.0
+margin_bottom = 54.0
+custom_constants/vseparation = 12
+custom_constants/hseparation = 1
+columns = 4
+
+[node name="Slot" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 70.0
+margin_bottom = 54.0
+rect_min_size = Vector2( 50, 0 )
+
+[node name="Slot2" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot3" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot4" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot5" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot6" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot7" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot8" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot9" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot10" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot11" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot12" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot13" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot14" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot15" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot16" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot17" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot18" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot19" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot20" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot21" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot22" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot23" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot24" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot25" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot26" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot27" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot28" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot29" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot30" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot31" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+rect_min_size = Vector2( 50, 0 )
+
+[node name="Slot32" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot33" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot34" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot35" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot36" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot37" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot38" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot39" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot40" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot41" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot42" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot43" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot44" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot45" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot46" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot47" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot48" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot49" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot50" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot51" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot52" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot53" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot54" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot55" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot56" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot57" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot58" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot59" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot60" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot61" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+rect_min_size = Vector2( 50, 0 )
+
+[node name="Slot62" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot63" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot64" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot65" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot66" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot67" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot68" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot69" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot70" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot71" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot72" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot73" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot74" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot75" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot76" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot77" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot78" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot79" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot80" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot81" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot82" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot83" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot84" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot85" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot86" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot87" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot88" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot89" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot90" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot91" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+rect_min_size = Vector2( 50, 0 )
+
+[node name="Slot92" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot93" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot94" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot95" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot96" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot97" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot98" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot99" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot100" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot101" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot102" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot103" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot104" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot105" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot106" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot107" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot108" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot109" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot110" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot111" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot112" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot113" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot114" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot115" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot116" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot117" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot118" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot119" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot120" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot121" parent="Item" instance=ExtResource( 3 )]
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 70.0
+margin_bottom = 54.0
+rect_min_size = Vector2( 50, 0 )
+
+[node name="Slot122" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot123" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot124" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot125" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot126" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot127" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot128" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot129" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot130" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot131" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot132" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot133" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot134" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot135" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot136" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot137" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot138" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 71.0
+margin_top = 0.0
+margin_right = 141.0
+margin_bottom = 54.0
+
+[node name="Slot139" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot140" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot141" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot142" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot143" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot144" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot145" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot146" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot147" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot148" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot149" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot150" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot151" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+rect_min_size = Vector2( 50, 0 )
+
+[node name="Slot152" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot153" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot154" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot155" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot156" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot157" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot158" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot159" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot160" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot161" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot162" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot163" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot164" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot165" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot166" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot167" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot168" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot169" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot170" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot171" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot172" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot173" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot174" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot175" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot176" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot177" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot178" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot179" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot180" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot181" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+rect_min_size = Vector2( 50, 0 )
+
+[node name="Slot182" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot183" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot184" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot185" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot186" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot187" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot188" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot189" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot190" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot191" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot192" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot193" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot194" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot195" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot196" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot197" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot198" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot199" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot200" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot201" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot202" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot203" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot204" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot205" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot206" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot207" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot208" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot209" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot210" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot211" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+rect_min_size = Vector2( 50, 0 )
+
+[node name="Slot212" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot213" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot214" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot215" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot216" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot217" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot218" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot219" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot220" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot221" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot222" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot223" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot224" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot225" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot226" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot227" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot228" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot229" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot230" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot231" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot232" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot233" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot234" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot235" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot236" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot237" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot238" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot239" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0
+
+[node name="Slot240" parent="Item" instance=ExtResource( 3 )]
+visible = false
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_top = 0.0
+margin_right = 609.0
+margin_bottom = 44.0

@@ -1,0 +1,28 @@
+[gd_resource type="Resource" load_steps=2 format=2]
+
+[ext_resource path="res://players/player_base.gd" type="Script" id=1]
+
+[resource]
+script = ExtResource( 1 )
+name = ""
+hp = 100
+mana = 5
+dame = 10
+money = 1
+speed = 400
+jump_height = 200
+jump_time_to_peak = 0.8
+jump_time_to_descent = 0.6
+dash_time = 1
+dive_time = 5
+jump_count = 1
+fly_time = 5
+is_fly = false
+is_run = false
+is_jump = false
+is_fall = false
+is_dash = false
+is_dive = false
+is_through = false
+is_hurt = false
+is_dead = false

@@ -1,0 +1,71 @@
+[gd_scene format=2]
+
+[node name="Control" type="CanvasLayer"]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="Left_margin" type="MarginContainer" parent="HBoxContainer"]
+margin_right = 50.0
+margin_bottom = 40.0
+rect_min_size = Vector2( 50, 0 )
+
+[node name="Control" type="Control" parent="HBoxContainer"]
+margin_left = 54.0
+margin_right = 54.0
+margin_bottom = 40.0
+
+[node name="Up" type="Button" parent="HBoxContainer/Control"]
+margin_left = 24.0
+margin_right = 93.0
+margin_bottom = 26.0
+text = "UP"
+
+[node name="Left" type="Button" parent="HBoxContainer/Control"]
+margin_left = -54.0
+margin_top = 40.0
+margin_right = 15.0
+margin_bottom = 66.0
+text = "LEFT"
+
+[node name="Bottom" type="Button" parent="HBoxContainer/Control"]
+margin_left = 24.0
+margin_top = 83.0
+margin_right = 93.0
+margin_bottom = 109.0
+text = "BOTTOM"
+
+[node name="Right" type="Button" parent="HBoxContainer/Control"]
+margin_left = 110.0
+margin_top = 40.0
+margin_right = 179.0
+margin_bottom = 66.0
+text = "RIGHT"
+
+[node name="Interact" type="Button" parent="HBoxContainer/Control"]
+margin_left = 444.0
+margin_top = 37.0
+margin_right = 506.0
+margin_bottom = 57.0
+text = "Interact"
+
+[node name="Interact2" type="Button" parent="HBoxContainer/Control"]
+margin_left = 603.0
+margin_top = 37.0
+margin_right = 679.0
+margin_bottom = 57.0
+text = "Interact_2"
+
+[node name="Interact3" type="Button" parent="HBoxContainer/Control"]
+margin_left = 526.0
+margin_right = 588.0
+margin_bottom = 20.0
+text = "Interact"
+
+[node name="Interact4" type="Button" parent="HBoxContainer/Control"]
+margin_left = 517.0
+margin_top = 88.0
+margin_right = 593.0
+margin_bottom = 108.0
+text = "Interact_2"

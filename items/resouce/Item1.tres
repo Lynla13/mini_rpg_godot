@@ -1,0 +1,24 @@
+[gd_resource type="Resource" load_steps=5 format=2]
+
+[ext_resource path="res://items/items_base.gd" type="Script" id=1]
+[ext_resource path="res://items/sprites/Short_Sword.png" type="Texture" id=2]
+[ext_resource path="res://items/Item/short_sword.tscn" type="PackedScene" id=3]
+
+[sub_resource type="AtlasTexture" id=1]
+atlas = ExtResource( 2 )
+region = Rect2( 28.2519, 24.1719, 37.0633, 32.4304 )
+
+[resource]
+script = ExtResource( 1 )
+name = "Short swords"
+description = ""
+texture = SubResource( 1 )
+hp = 0
+mana = 0
+count_down = 0
+item_type = 6
+is_equip = false
+is_quickuse = false
+dame = 0
+quantity = 1
+item = ExtResource( 3 )
